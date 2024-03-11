@@ -1,6 +1,6 @@
 ## Hi there! 👋
 
-<img class="avatar" src="/images/me.jpg" alt="avatar">
+<img class="avatar" src="{{ .Site.BaseUrl }}/images/me.jpg" alt="avatar">
 
 I'm Kyle, I work as a software engineer and occasionally as plumber.
 

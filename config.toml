@@ -1,4 +1,4 @@
-baseURL = 'https://maverick.canhtran.me'
+baseURL = 'https://coding-plumber.github.io/MyDevSite/'
 publishDir = "docs"
 languageCode = 'en-us'
 title = 'Kyle McAndrew'
