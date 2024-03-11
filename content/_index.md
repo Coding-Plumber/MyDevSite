@@ -4,7 +4,7 @@
 
 I'm Kyle, I work as a software engineer and occasionally as plumber.
 
-I write about things i find interesting and projects i am working on as a way to be able to look back on my growth.
+I write about things I find interesting and projects i am working on as a way to be able to look back on my growth.
 
 <a href="https://github.com/Coding-Plumber" target="_blank" rel="noopener noreferrer">
     <img class="icons" src="images/github-mark.png" alt="GitHub">

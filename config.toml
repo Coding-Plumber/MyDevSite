@@ -1,4 +1,4 @@
-baseURL = 'https://kylemcandrew.dev/'
+baseURL = 'https://kylemcandrew.dev'
 publishDir = "docs"
 languageCode = 'en-us'
 title = 'Kyle McAndrew'
