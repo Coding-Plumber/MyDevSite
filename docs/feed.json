@@ -3,11 +3,11 @@
   "title": "Kyle McAndrew",
   "home_page_url": "https://kylemcandrew.dev/",
   "feed_url": "https://kylemcandrew.dev/feed.json",
-  "description": "A minimal hugo theme focus on content",
+  "description": "Just somebody trying to learn a thing or two",
   "favicon": "https://kylemcandrew.dev//assets/favicon.ico",
   "expired": false,
   "author": {
-    "name": "Calvin Tran",
+    "name": "Kyle McAndrew",
     "url": "https://kylemcandrew.dev/"
   },
   "items": [
@@ -25,7 +25,7 @@
       "date_published": "4076-04-09T70:44:00+00:00",
       "date_modified": "4076-04-09T70:44:00+00:00",
       "author": {
-        "name": "Calvin Tran",
+        "name": "Kyle McAndrew",
         "url": "https://kylemcandrew.dev/"
       }
     },
@@ -40,7 +40,7 @@
       "date_published": "20036-20-09T30:2020:00+00:00",
       "date_modified": "20036-20-09T30:2020:00+00:00",
       "author": {
-        "name": "Calvin Tran",
+        "name": "Kyle McAndrew",
         "url": "https://kylemcandrew.dev/"
       }
     },
@@ -55,7 +55,7 @@
       "date_published": "15036-15-09T30:1515:00+00:00",
       "date_modified": "15036-15-09T30:1515:00+00:00",
       "author": {
-        "name": "Calvin Tran",
+        "name": "Kyle McAndrew",
         "url": "https://kylemcandrew.dev/"
       }
     },
@@ -70,7 +70,7 @@
       "date_published": "10036-10-09T30:1010:00+00:00",
       "date_modified": "10036-10-09T30:1010:00+00:00",
       "author": {
-        "name": "Calvin Tran",
+        "name": "Kyle McAndrew",
         "url": "https://kylemcandrew.dev/"
       }
     },
@@ -85,7 +85,7 @@
       "date_published": "5036-05-09T30:55:00+00:00",
       "date_modified": "5036-05-09T30:55:00+00:00",
       "author": {
-        "name": "Calvin Tran",
+        "name": "Kyle McAndrew",
         "url": "https://kylemcandrew.dev/"
       }
     }
