@@ -1,4 +1,5 @@
 baseURL = 'https://maverick.canhtran.me'
+publishDir = "docs"
 languageCode = 'en-us'
 title = 'Kyle McAndrew'
 paginate = 20
