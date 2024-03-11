@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kyle McAndrew</title>
-    <link>https://coding-plumber.github.io/MyDevSite/tags/</link>
+    <link>https://kylemcandrew.dev/tags/</link>
     <description>Recent content in Tags on Kyle McAndrew</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://coding-plumber.github.io/MyDevSite/tags/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kylemcandrew.dev/tags/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bruce Willis</title>
-      <link>https://coding-plumber.github.io/MyDevSite/tags/hugo/</link>
+      <link>https://kylemcandrew.dev/tags/hugo/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://coding-plumber.github.io/MyDevSite/tags/hugo/</guid>
+      <guid>https://kylemcandrew.dev/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample</title>
-      <link>https://coding-plumber.github.io/MyDevSite/tags/sample/</link>
+      <link>https://kylemcandrew.dev/tags/sample/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://coding-plumber.github.io/MyDevSite/tags/sample/</guid>
+      <guid>https://kylemcandrew.dev/tags/sample/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>https://coding-plumber.github.io/MyDevSite/tags/css/</link>
+      <link>https://kylemcandrew.dev/tags/css/</link>
       <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://coding-plumber.github.io/MyDevSite/tags/css/</guid>
+      <guid>https://kylemcandrew.dev/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>https://coding-plumber.github.io/MyDevSite/tags/html/</link>
+      <link>https://kylemcandrew.dev/tags/html/</link>
       <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://coding-plumber.github.io/MyDevSite/tags/html/</guid>
+      <guid>https://kylemcandrew.dev/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://coding-plumber.github.io/MyDevSite/tags/markdown/</link>
+      <link>https://kylemcandrew.dev/tags/markdown/</link>
       <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://coding-plumber.github.io/MyDevSite/tags/markdown/</guid>
+      <guid>https://kylemcandrew.dev/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Emoji</title>
-      <link>https://coding-plumber.github.io/MyDevSite/tags/emoji/</link>
+      <link>https://kylemcandrew.dev/tags/emoji/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://coding-plumber.github.io/MyDevSite/tags/emoji/</guid>
+      <guid>https://kylemcandrew.dev/tags/emoji/</guid>
       <description></description>
     </item>
   </channel>
