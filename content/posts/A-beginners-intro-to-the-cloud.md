@@ -1,6 +1,6 @@
 ---
 author: "Kyle McAndrew"
-title: "Beginners guide to the cloud"
+title: "Beginners journey to the cloud"
 date: "2024-04-02"
 tags:
   - cloud
