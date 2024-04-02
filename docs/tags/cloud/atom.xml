@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Kyle McAndrew</title>
+    <link>http://localhost:1313/tags/cloud/</link>
+    <description>Recent content in Cloud on Kyle McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cloud/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginners guide to the cloud</title>
+      <link>http://localhost:1313/posts/a-beginners-intro-to-the-cloud/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-beginners-intro-to-the-cloud/</guid>
+      <description>I have wrote this as a beginner in using cloud services, my intention is to improve my writing skills, hold myself accountable and to be able to look back on my growth in the future. Therefore it is far from perfect it&amp;rsquo;s harder to write than i imagined, if anybody has some resources on helping to write be it technical documentation or articles and books on brainstorming and formatting then please do share.</description>
+    </item>
+  </channel>
+</rss>

@@ -2,50 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kylemcandrew.dev/</loc>
-    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kylemcandrew.dev/tags/hugo/</loc>
-    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/aws/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kylemcandrew.dev/posts/install-hugo-on-mac-os/</loc>
-    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/a-beginners-intro-to-the-cloud/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kylemcandrew.dev/posts/</loc>
-    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/cloud/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kylemcandrew.dev/tags/sample/</loc>
-    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kylemcandrew.dev/tags/</loc>
-    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kylemcandrew.dev/tags/css/</loc>
-    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://kylemcandrew.dev/tags/html/</loc>
-    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/hugo/</loc>
   </url><url>
-    <loc>https://kylemcandrew.dev/tags/markdown/</loc>
-    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kylemcandrew.dev/posts/markdown-syntax/</loc>
-    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kylemcandrew.dev/posts/example-content/</loc>
-    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kylemcandrew.dev/posts/rich-content/</loc>
-    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kylemcandrew.dev/tags/emoji/</loc>
-    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kylemcandrew.dev/posts/emoji-support/</loc>
-    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kylemcandrew.dev/about/</loc>
-  </url><url>
-    <loc>https://kylemcandrew.dev/pages/</loc>
+    <loc>http://localhost:1313/pages/</loc>
   </url>
 </urlset>
