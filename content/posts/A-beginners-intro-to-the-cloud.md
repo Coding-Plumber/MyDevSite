@@ -39,7 +39,7 @@ A VPC is a private cloud environment that we use to host and protect our service
 
 ### CIDR Block (Classless Inter-Domain Routing Block)
 
-Let's say the address for the VPC location is ‘AWS Complex 10.0.1.0/16’ – this is called the CIDR block, and I'll try to explain it below. Upon entering the AWS cloud complex, ready to deliver your parcel, you encounter its unique addressing system. Unlike traditional street addresses, this complex uses a special layout for naming its buildings—think "Ivy Cottage" or "The Stables" instead of the usual "1457 Butthole Lane." (Yes, that's a real road here in the UK) This unique layout is defined by what's known as a CIDR block. It's like the architectural blueprint of the complex, detailing how addresses are allocated and the total number of buildings it can accommodate. A CIDR block sets the boundaries for all possible addresses within the complex, ensuring each building has its own distinct location for precise delivery.
+Let's say the address for the VPC location is ‘AWS Complex 10.0.1.0/16’ – this is called the CIDR block, and I'll try to explain it below. Upon entering the AWS cloud complex, ready to deliver your parcel, you encounter its unique addressing system. Unlike traditional street addresses, this complex uses a special layout for naming its buildings—think "Ivy Cottage" or "The Stables". This unique layout is defined by what's known as a CIDR block. It's like the architectural blueprint of the complex, detailing how addresses are allocated and the total number of buildings it can accommodate. A CIDR block sets the boundaries for all possible addresses within the complex, ensuring each building has its own distinct location for precise delivery.
 
 ### Understanding IP Addresses
 

@@ -2,31 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kyle McAndrew</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:57552/tags/</link>
     <description>Recent content in Tags on Kyle McAndrew</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/atom.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:57552/tags/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithms</title>
+      <link>http://localhost:57552/tags/algorithms/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57552/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DSA</title>
+      <link>http://localhost:57552/tags/dsa/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57552/tags/dsa/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Aws</title>
-      <link>http://localhost:1313/tags/aws/</link>
+      <link>http://localhost:57552/tags/aws/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/aws/</guid>
+      <guid>http://localhost:57552/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>http://localhost:1313/tags/cloud/</link>
+      <link>http://localhost:57552/tags/cloud/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cloud/</guid>
+      <guid>http://localhost:57552/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Bruce Willis</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>http://localhost:57552/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <guid>http://localhost:57552/tags/hugo/</guid>
       <description></description>
     </item>
   </channel>

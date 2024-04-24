@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57552&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - http://localhost:57552/">
+    <title>Binary Search | Kyle McAndrew</title>
+    <meta name="description" content="Just somebody trying to learn a thing or two">
+    <meta property="og:title" content="Binary Search" />
+<meta property="og:description" content="I&rsquo;ve been learning algorithms for a while and it&rsquo;s part of my constant learning goal for the year and i have commited to atleast 100 posts on this page so this next one i have done on binary search.
+Ever searched through a massive phone book for a name starting with &lsquo;K&rsquo;? Yeah probably not if your still in your 20&rsquo;s! Anyway you’ll have to imagine it. Instead of starting at the beginning, you&rsquo;d likely flip to the middle." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:57552/posts/binary-search/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-04-22T00:00:00+00:00" />
+
+
+    <meta itemprop="name" content="Binary Search">
+<meta itemprop="description" content="I&rsquo;ve been learning algorithms for a while and it&rsquo;s part of my constant learning goal for the year and i have commited to atleast 100 posts on this page so this next one i have done on binary search.
+Ever searched through a massive phone book for a name starting with &lsquo;K&rsquo;? Yeah probably not if your still in your 20&rsquo;s! Anyway you’ll have to imagine it. Instead of starting at the beginning, you&rsquo;d likely flip to the middle."><meta itemprop="datePublished" content="2024-04-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2024-04-22T00:00:00+00:00" />
+<meta itemprop="wordCount" content="559">
+<meta itemprop="keywords" content="DSA,algorithms," />
+    
+    <link rel="canonical" href="http://localhost:57552/posts/binary-search/">
+    <link rel="icon" href="http://localhost:57552//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="Kyle McAndrew" href="http://localhost:57552//atom.xml" />
+    <link rel="alternate" type="application/json" title="Kyle McAndrew" href="http://localhost:57552//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Binary Search",
+      "headline": "Binary Search",
+      "alternativeHeadline": "",
+      "description": "I\u0026rsquo;ve been learning algorithms for a while and it\u0026rsquo;s part of my constant learning goal for the year and i have commited to atleast 100 posts on this page so this next one i have done on binary search.\nEver searched through a massive phone book for a name starting with \u0026lsquo;K\u0026rsquo;? Yeah probably not if your still in your 20\u0026rsquo;s! Anyway you’ll have to imagine it. Instead of starting at the beginning, you\u0026rsquo;d likely flip to the middle.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http:\/\/localhost:57552\/posts\/binary-search\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Kyle McAndrew"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Kyle McAndrew"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Kyle McAndrew"
+      },
+      "copyrightHolder" : "Kyle McAndrew",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-04-22T00:00:00.00Z",
+      "datePublished": "2024-04-22T00:00:00.00Z",
+      "dateModified": "2024-04-22T00:00:00.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "Kyle McAndrew",
+          "url": "http://localhost:57552/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "http:\/\/localhost:57552\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "http://localhost:57552/assets/favicon.ico",
+      "url" : "http:\/\/localhost:57552\/posts\/binary-search\/",
+      "wordCount" : "559",
+      "genre" : [ "DSA" , "algorithms" ],
+      "keywords" : [ "DSA" , "algorithms" ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>Kyle McAndrew</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Posts</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Binary Search</h2>
+      <p>I&rsquo;ve been learning algorithms for a while and it&rsquo;s part of my constant learning goal for the year and i have commited to atleast 100 posts on this page so this next one i have done on binary search.</p>
+<p>Ever searched through a massive phone book for a name starting with &lsquo;K&rsquo;? Yeah probably not if your still in your 20&rsquo;s! Anyway you’ll have to imagine it. Instead of starting at the beginning, you&rsquo;d likely flip to the middle. This is the essence of a binary search.</p>
+<p>We keep halving the data until we find our target. If we land on &lsquo;L&rsquo;, we know &lsquo;K&rsquo; must be to the left, instantly discarding half the phone book. We halve again, find our section, and bam! – only 25% of the original data remains after just two steps. Compare this to a linear search, where you&rsquo;d check every name, potentially going through the entire phone book.</p>
+<br>
+<p>Think of it like a number guessing game with numbers 1 to 10.</p>
+<p><img
+  src="/images/1to10.png"
+  alt="10 sorted ints"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>To minimize guesses, you start with 5 or 6</p>
+<p><img
+  src="/images/1to5.png"
+  alt="5 sorted ints"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>instantly reducing the possibilities by half. Say your next guess is 3, and I say &ldquo;lower.&rdquo; You now only have to worry about 1-3.</p>
+<p><img
+  src="/images/1to3.png"
+  alt="3 sorted ints"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>One more guess (2), and you nail it.</p>
+<p><img
+  src="/images/2withcrown.png"
+  alt="2 is king"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>It took 4 guesses for 10 numbers, which might seem unimpressive. But scale it up:</p>
+<ul>
+<li>100 numbers: 7 guesses</li>
+<li>1000 numbers: 10 guesses</li>
+<li>100,000 numbers: Only 17 guesses!</li>
+</ul>
+<p>Notice how even doubling the input (100,000 to 200,000) only needs one extra guess! A linear search gets linearly slower as the input grows.</p>
+<p>This efficiency is expressed in Big O notation:</p>
+<ul>
+<li>Binary search: O(log n) - logarithmic growth</li>
+<li>Linear search: O(n) – growth directly tied to input size</li>
+</ul>
+<br>
+<h3 id="brief-explanation-on-logarithms">Brief explanation on logarithms&hellip;</h3>
+<p>This is taken from a book i&rsquo;m working through called &lsquo;Grokking algorithms&rsquo; by Aditya Y. Bhargava which i would recommend if DSA interests you and you don&rsquo;t know where to start.</p>
+<p>You may not remember what logarithms are, but you probably know what exponentials are. log10 100 is like asking “How many 10s do we multiply together to get 100?” The answer is 2: 10 x 10. So log10 100 = 2. Logs are the inverse of exponentials.</p>
+<p>10² = 100 ↔ log10 100 = 2<br>
+10³ = 1000 ↔ log10 1000 = 3<br>
+2³ = 8↔ log2 8= 3<br>
+2⁴ = 16 ↔ log2 16 = 4<br>
+2⁵ = 32 ↔ log2 32 = 5</p>
+<p><strong>Logs are the inverse of exponentials.</strong></p>
+<br>
+<h3 id="worst-case-scenario-is-what-matters">Worst-case scenario is what matters</h3>
+<p>Worst-case scenario is what matters in Big O notation, for example if n = 100 there are 100 possibilities and there is nothing stopping us finding it on attempt 1 of 100 and that iteration would in theory be O(1) however we use worst case to determine speeds but it is occasionally possible for a O(n) to out perform a O(log n).</p>
+<p>Binary search can only be used on sorted data because of the nature of how it searches so there is added time complexities behind the scenes for sorting the data that should be accounted for.</p>
+<br>
+<h3 id="some-real-world-use-cases-for-binary-search">Some real-world use cases for binary search:</h3>
+<ul>
+<li>Databases and range queries</li>
+<li>Isolating faults in a complex system, by testing the midpoint of a process it can eliminate half very quickly.</li>
+<li>The ‘middle out’ compression algorithm by Pied Piper 👀 &hellip;Ok, I’m sure it would have been.</li>
+</ul>
+
+      
+      <div class="post-date">
+        <span class="g time">April 22, 2024 </span> &#8729;
+         
+         <a href="http://localhost:57552/tags/dsa/">dsa</a> <a href="http://localhost:57552/tags/algorithms/">algorithms</a>
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>
