@@ -6,7 +6,6 @@ I'm Kyle, I work as a software engineer and occasionally as plumber.
 
 I have committed to writing atleast 100 posts to help me write and help solidify my learning. These could be on anything i find interesting or am learning from coding, tech maybe even a little bit of construction or DIY. Let's see where it goes.
 
-
 <a href="https://github.com/Coding-Plumber" target="_blank" rel="noopener noreferrer">
     <img class="icons" src="images/github-mark.png" alt="GitHub" style="height: 30px; width: 30px; margin-bottom: 20px;">
 </a>

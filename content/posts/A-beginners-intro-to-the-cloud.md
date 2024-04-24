@@ -47,5 +47,4 @@ An IPv4 address is made up of 4 bytes and would look something like this: 192.16
 
 My intention is this gives an insight into the very basic understanding, and maybe i can use it as a refresher if i ever forget for a high level overview.
 
-
 Thank You

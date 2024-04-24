@@ -55,8 +55,8 @@ You may not remember what logarithms are, but you probably know what exponential
 10² = 100 ↔ log10 100 = 2  
 10³ = 1000 ↔ log10 1000 = 3  
 2³ = 8↔ log2 8= 3  
-2⁴ = 16 ↔ log2 16 = 4   
-2⁵ = 32 ↔ log2 32 = 5  
+2⁴ = 16 ↔ log2 16 = 4  
+2⁵ = 32 ↔ log2 32 = 5
 
 **Logs are the inverse of exponentials.**
 
