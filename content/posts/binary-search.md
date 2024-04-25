@@ -29,7 +29,7 @@ instantly reducing the possibilities by half. Say your next guess is 3, and I sa
 
 One more guess (2), and you nail it.
 
-![2 is king](/images/2withcrown.png)
+![2 is king](/images/2withCrown.png)
 
 It took 4 guesses for 10 numbers, which might seem unimpressive. But scale it up:
 
