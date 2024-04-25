@@ -3,23 +3,63 @@
     
     <title>Kyle McAndrew</title>
     <description>Just somebody trying to learn a thing or two</description>
-    <link>http://localhost:1313/</link>
+    <link>https://kylemcandrew.dev/</link>
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
     <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
+    <atom:link href="https://kylemcandrew.dev//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
       <title>Binary Search</title>
-      <link>http://localhost:1313/posts/binary-search/</link>
+      <link>https://kylemcandrew.dev/posts/binary-search/</link>
       <description>&lt;p&gt;I&amp;rsquo;ve been learning algorithms for a while and it&amp;rsquo;s part of my constant learning goal for the year and i have commited to atleast 100 posts on this page so this next one i have done on binary search.&lt;/p&gt;
 &lt;p&gt;Ever searched through a massive phone book for a name starting with &amp;lsquo;K&amp;rsquo;? Yeah probably not if your still in your 20&amp;rsquo;s! Anyway you’ll have to imagine it. Instead of starting at the beginning, you&amp;rsquo;d likely flip to the middle. This is the essence of a binary search.&lt;/p&gt;
 &lt;p&gt;We keep halving the data until we find our target. If we land on &amp;lsquo;L&amp;rsquo;, we know &amp;lsquo;K&amp;rsquo; must be to the left, instantly discarding half the phone book. We halve again, find our section, and bam! – only 25% of the original data remains after just two steps. Compare this to a linear search, where you&amp;rsquo;d check every name, potentially going through the entire phone book.&lt;/p&gt;
-&lt;p&gt;Think of it like a number guessing game with numbers 1 to 10. To minimize guesses, you start with 5 or 6, instantly reducing the possibilities by half. Say your next guess is 3, and I say &amp;ldquo;lower.&amp;rdquo; You now only have to worry about 1-3. One more guess (2), and you nail it.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Think of it like a number guessing game with numbers 1 to 10.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://kylemcandrew.dev/images/1to10.png&#34;
+  alt=&#34;10 sorted ints&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;To minimize guesses, you start with 5 or 6&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://kylemcandrew.dev/images/1to5.png&#34;
+  alt=&#34;5 sorted ints&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;instantly reducing the possibilities by half. Say your next guess is 3, and I say &amp;ldquo;lower.&amp;rdquo; You now only have to worry about 1-3.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://kylemcandrew.dev/images/1to3.png&#34;
+  alt=&#34;3 sorted ints&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;One more guess (2), and you nail it.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://kylemcandrew.dev/images/2withcrown.png&#34;
+  alt=&#34;2 is king&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 &lt;p&gt;It took 4 guesses for 10 numbers, which might seem unimpressive. But scale it up:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;100 numbers: 7 guesses&lt;/li&gt;
@@ -32,18 +72,21 @@
 &lt;li&gt;Binary search: O(log n) - logarithmic growth&lt;/li&gt;
 &lt;li&gt;Linear search: O(n) – growth directly tied to input size&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br&gt;
 &lt;h3 id=&#34;brief-explanation-on-logarithms&#34;&gt;Brief explanation on logarithms&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;This is taken from a book i&amp;rsquo;m working through called &amp;lsquo;Grokking algorithms&amp;rsquo; by Aditya Y. Bhargava which i would recommend if DSA interests you and you don&amp;rsquo;t know where to start.&lt;/p&gt;
 &lt;p&gt;You may not remember what logarithms are, but you probably know what exponentials are. log10 100 is like asking “How many 10s do we multiply together to get 100?” The answer is 2: 10 x 10. So log10 100 = 2. Logs are the inverse of exponentials.&lt;/p&gt;
-&lt;p&gt;10² = 100 ↔ log10 100 = 2
-10³ = 1000 ↔ log10 1000 = 3
-2³ = 8↔ log2 8= 3
-2⁴ = 16 ↔ log2 16 = 4
+&lt;p&gt;10² = 100 ↔ log10 100 = 2&lt;br&gt;
+10³ = 1000 ↔ log10 1000 = 3&lt;br&gt;
+2³ = 8↔ log2 8= 3&lt;br&gt;
+2⁴ = 16 ↔ log2 16 = 4&lt;br&gt;
 2⁵ = 32 ↔ log2 32 = 5&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Logs are the inverse of exponentials.&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
 &lt;h3 id=&#34;worst-case-scenario-is-what-matters&#34;&gt;Worst-case scenario is what matters&lt;/h3&gt;
 &lt;p&gt;Worst-case scenario is what matters in Big O notation, for example if n = 100 there are 100 possibilities and there is nothing stopping us finding it on attempt 1 of 100 and that iteration would in theory be O(1) however we use worst case to determine speeds but it is occasionally possible for a O(n) to out perform a O(log n).&lt;/p&gt;
 &lt;p&gt;Binary search can only be used on sorted data because of the nature of how it searches so there is added time complexities behind the scenes for sorting the data that should be accounted for.&lt;/p&gt;
+&lt;br&gt;
 &lt;h3 id=&#34;some-real-world-use-cases-for-binary-search&#34;&gt;Some real-world use cases for binary search:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Databases and range queries&lt;/li&gt;
@@ -52,13 +95,13 @@
 &lt;/ul&gt;
 </description>
       <author>Kyle McAndrew</author>
-      <guid>http://localhost:1313/posts/binary-search/</guid>
+      <guid>https://kylemcandrew.dev/posts/binary-search/</guid>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Beginners journey to the cloud</title>
-      <link>http://localhost:1313/posts/a-beginners-intro-to-the-cloud/</link>
+      <link>https://kylemcandrew.dev/posts/a-beginners-intro-to-the-cloud/</link>
       <description>&lt;p&gt;I have wrote this as a beginner in using cloud services, my intention is to improve my writing skills, hold myself accountable and to be able to look back on my growth in the future. Therefore it is far from perfect it&amp;rsquo;s harder to write than i imagined, if anybody has some resources on helping to write be it technical documentation or articles and books on brainstorming and formatting then please do share.&lt;/p&gt;
 &lt;h2 id=&#34;bytes--bits&#34;&gt;Bytes &amp;amp; bits&lt;/h2&gt;
 &lt;h3 id=&#34;whats-a-bit&#34;&gt;What&amp;rsquo;s a Bit?&lt;/h3&gt;
@@ -75,14 +118,14 @@
 &lt;h3 id=&#34;vpc-virtual-private-cloud&#34;&gt;VPC (Virtual Private Cloud)&lt;/h3&gt;
 &lt;p&gt;A VPC is a private cloud environment that we use to host and protect our services. This is a nice gated community so it costs, you pay for the security and features provided. We have the correct identification to allow us into the complex so they let us in and send us to the correct building for our parcel delivery which is addressed to a certain building within the complex.&lt;/p&gt;
 &lt;h3 id=&#34;cidr-block-classless-inter-domain-routing-block&#34;&gt;CIDR Block (Classless Inter-Domain Routing Block)&lt;/h3&gt;
-&lt;p&gt;Let&amp;rsquo;s say the address for the VPC location is ‘AWS Complex 10.0.1.0/16’ – this is called the CIDR block, and I&amp;rsquo;ll try to explain it below. Upon entering the AWS cloud complex, ready to deliver your parcel, you encounter its unique addressing system. Unlike traditional street addresses, this complex uses a special layout for naming its buildings—think &amp;ldquo;Ivy Cottage&amp;rdquo; or &amp;ldquo;The Stables&amp;rdquo; instead of the usual &amp;ldquo;1457 Butthole Lane.&amp;rdquo; (Yes, that&amp;rsquo;s a real road here in the UK) This unique layout is defined by what&amp;rsquo;s known as a CIDR block. It&amp;rsquo;s like the architectural blueprint of the complex, detailing how addresses are allocated and the total number of buildings it can accommodate. A CIDR block sets the boundaries for all possible addresses within the complex, ensuring each building has its own distinct location for precise delivery.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say the address for the VPC location is ‘AWS Complex 10.0.1.0/16’ – this is called the CIDR block, and I&amp;rsquo;ll try to explain it below. Upon entering the AWS cloud complex, ready to deliver your parcel, you encounter its unique addressing system. Unlike traditional street addresses, this complex uses a special layout for naming its buildings—think &amp;ldquo;Ivy Cottage&amp;rdquo; or &amp;ldquo;The Stables&amp;rdquo;. This unique layout is defined by what&amp;rsquo;s known as a CIDR block. It&amp;rsquo;s like the architectural blueprint of the complex, detailing how addresses are allocated and the total number of buildings it can accommodate. A CIDR block sets the boundaries for all possible addresses within the complex, ensuring each building has its own distinct location for precise delivery.&lt;/p&gt;
 &lt;h3 id=&#34;understanding-ip-addresses&#34;&gt;Understanding IP Addresses&lt;/h3&gt;
 &lt;p&gt;An IPv4 address is made up of 4 bytes and would look something like this: 192.168.1.0 Using an IPv4 address of 192.168.1.0, we can picture this as an address we would use for our house: Full address: 192.168.1.0 192.168 could be the area, like Manchester, Didsbury 1.0 represents the specific building and apartment number We have our address for AWS Complex 10.0.0.0/16 &amp;hellip;.wait, you said it&amp;rsquo;s 4 bytes and you&amp;rsquo;ve thrown a /16 at me! What is this?!?! Don&amp;rsquo;t panic! This is just a way of organising the unique IP addresses (or house locations), and it&amp;rsquo;s actually simple how we work it out. If we have 10.0.0&lt;/p&gt;
 &lt;p&gt;My intention is this gives an insight into the very basic understanding, and maybe i can use it as a refresher if i ever forget for a high level overview.&lt;/p&gt;
 &lt;p&gt;Thank You&lt;/p&gt;
 </description>
       <author>Kyle McAndrew</author>
-      <guid>http://localhost:1313/posts/a-beginners-intro-to-the-cloud/</guid>
+      <guid>https://kylemcandrew.dev/posts/a-beginners-intro-to-the-cloud/</guid>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     
