@@ -7,11 +7,56 @@
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://kylemcandrew.dev//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>Backend website architecture</title>
+      <link>https://kylemcandrew.dev/posts/website-be-architecture/</link>
+      <description>&lt;p&gt;I always like to work on projects that achieve multiple goals. Since I want to focus on backend and cloud development for the next few months, I decided to create a real-world application that I&#39;ll actually use. This led me to build a comprehensive plumbing website using the following technologies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React with Next.js&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;Tailwind CSS&lt;/li&gt;
+&lt;li&gt;AWS (Amazon Web Services)&lt;/li&gt;
+&lt;li&gt;Go (Golang)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Having already created a straightforward plumbing website, I wanted version 2 to focus on automating as much of the process as possible, from booking to job completion.&lt;/p&gt;
+&lt;p&gt;Having already created a straightforward plumbing website, I wanted version 2 to focus on automating as much of the process as possible, from booking to job completion.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve created an MVP (Minimum Viable Product) architecture diagram, but I have many more ideas to implement. My focus is on getting the core functionality up and running, then iteratively adding new features in an agile manner.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://kylemcandrew.dev/images/heating-medics-be-arc.svg&#34;
+  alt=&#34;planned mvp digram&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2&gt;How the MVP is Designed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Form Submission:&lt;/b&gt; The user submits a form, triggering a Lambda function that processes the data and stores it in a database.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Calendar Integration (Challenge):&lt;/b&gt; The trickier part involves syncing available booking times with my phone&#39;s calendar. The idea is that events added to my Google Calendar will trigger a Lambda function to update the database, blocking off those times for bookings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Additional Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Frontend Postcode Checker:&lt;/b&gt; A postcode radius checker on the frontend will determine if a user&#39;s location is within the service area. This will be implemented using a JSON-based hash map for fast (O(1)) lookups, ensuring a smooth user experience.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Dynamic Booking Calendar:&lt;/b&gt; After passing the postcode check, users will see a calendar displaying available booking times fetched from the backend. This gives me granular control over the days and times offered for each service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Mobile Calendar Integration&lt;/h2&gt;
+&lt;p&gt;The more complex aspect is integrating this functionality with my mobile calendar. Adding an event to my Google Calendar should automatically update the database, blocking off those times for bookings.&lt;/p&gt;
+&lt;h2&gt;The Road Ahead&lt;/h2&gt;
+&lt;p&gt;I have many more features in mind, but I prefer to start with an MVP, tackling smaller tasks and gradually adding complexity once the core application is functional.&lt;/p&gt;
+&lt;p&gt;If anybody has implemented anything similar with google calender would be interesting to hear.&lt;/p&gt; 
+</description>
+      <author>Kyle McAndrew</author>
+      <guid>https://kylemcandrew.dev/posts/website-be-architecture/</guid>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title>Binary Search</title>

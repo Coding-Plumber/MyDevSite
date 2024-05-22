@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Kyle McAndrew</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kylemcandrew.dev/tags/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>https://kylemcandrew.dev/tags/architecture/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://kylemcandrew.dev/tags/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aws</title>
+      <link>https://kylemcandrew.dev/tags/aws/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://kylemcandrew.dev/tags/aws/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Algorithms</title>
       <link>https://kylemcandrew.dev/tags/algorithms/</link>
@@ -20,13 +34,6 @@
       <link>https://kylemcandrew.dev/tags/dsa/</link>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://kylemcandrew.dev/tags/dsa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Aws</title>
-      <link>https://kylemcandrew.dev/tags/aws/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://kylemcandrew.dev/tags/aws/</guid>
       <description></description>
     </item>
     <item>
