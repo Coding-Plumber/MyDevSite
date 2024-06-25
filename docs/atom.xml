@@ -3,19 +3,114 @@
     
     <title>Kyle McAndrew</title>
     <description>Just somebody trying to learn a thing or two</description>
-    <link>https://kylemcandrew.dev/</link>
+    <link>http://localhost:1313/</link>
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="https://kylemcandrew.dev//atom.xml" rel="self" type="application/atom+xml"/>
+    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
+      <title>Two Keyboards!?</title>
+      <link>http://localhost:1313/posts/two-keyboards/</link>
+      <description>&lt;h1&gt;Exploring Ergonomic Split Keyboards: My Journey with the Glove 80&lt;/h1&gt;
+&lt;p&gt;Over the last few months, I started to look into ergonomic split keyboards and a few keyboards kept coming up:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Kinesis Advantage 360&lt;/li&gt;
+  &lt;li&gt;Glove 80&lt;/li&gt;
+  &lt;li&gt;ZSA Moonlander&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Why Though?&lt;/h2&gt;
+&lt;p&gt;As a self-employed plumber who also works as a software engineer, I began noticing fatigue in my wrists. After a decade of repetitive movements like using screwdrivers, I started to worry about carpal tunnel syndrome (CTS). I researched ways to prevent this because I really enjoy my job and wanted to plan for longevity. I came across an article that seems to corroborate this:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?DB=pubmed&#34;&gt;PubMed research on ergonomic keyboards&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The research suggests that fixed-split ergonomic keyboards can reduce pain and the likelihood of developing musculoskeletal disorders in typists over extended use. It seems that the forced position of a normal keyboard can increase muscle strain, whereas an ergonomic or split ergonomic keyboard can alleviate this.&lt;/p&gt;
+&lt;h2&gt;Glove 80&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;http://localhost:1313/images/glove80BEV.jpeg&#34;
+  alt=&#34;Glove 80 top view&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;The Glove 80 caught my eye. They kind of look like goalkeeper gloves to me every time I take a step back and look at them.&lt;/p&gt;
+&lt;p&gt;I decided on the Glove 80 because of its excellent reviews. Some complaints mentioned they&#39;re better suited for larger hands, which worked in my favor as I was worried about the opposite.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;http://localhost:1313/images/glove80Side.jpeg&#34;
+  alt=&#34;Glove 80 side view&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;It has a natural curve and feels incredibly comfortable. You can even &#39;tent&#39; it, raising the legs to a 45-degree angle, a 90-degree angle, or attach it to your chair with accessories.&lt;/p&gt;
+&lt;h2&gt;Cost&lt;/h2&gt;
+&lt;p&gt;The Glove 80 is fairly expensive, costing me £322. However, you pay for what you get, and can you put a price on your health? As a plumber, I always bought high-quality tools, and this keyboard feels well-made. It has reignited my enjoyment of typing and motivated me to relearn touch typing.&lt;/p&gt;
+&lt;p&gt;It comes in two colors (white or dark gray) and offers 4 key choices:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Kailh Choc v1 Brown Tactile&lt;/li&gt;
+  &lt;li&gt;Kailh Choc v1 Red Linear 50gf&lt;/li&gt;
+  &lt;li&gt;Kailh Choc v1 Red Pro Linear 35gf&lt;/li&gt;
+  &lt;li&gt;Kailh Choc v1 White clicky&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also order one with unsoldered keys if you have soldering experience and prefer custom keys.&lt;/p&gt;
+&lt;h2&gt;QWERTY &amp; Engram&lt;/h2&gt;
+&lt;p&gt;This is where I probably messed up a little. After 20 years of using QWERTY, I decided to explore alternative layouts while switching keyboards.&lt;/p&gt;
+&lt;h3&gt;Why is QWERTY the way it is?&lt;/h3&gt;
+&lt;p&gt;QWERTY was introduced in 1873 for the Remington No. 1 typewriter. Its design was influenced by mechanical limitations, primarily to reduce jamming of typebars. The layout arranged commonly used letters apart to slow down typing just enough to prevent jams.&lt;/p&gt;
+&lt;h3&gt;Alternative Layouts&lt;/h3&gt;
+&lt;p&gt;I researched several alternative layouts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Dvorak (1930):&lt;/strong&gt; Designed to increase typing speed and reduce finger movement.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Colemak (2006):&lt;/strong&gt; Aims to retain many QWERTY shortcuts while placing common letters on the home row.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Workman (2010):&lt;/strong&gt; Focuses on reducing lateral finger movements and finger strain.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Engram (2016):&lt;/strong&gt; An ergonomic layout optimized using computer algorithms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I ended up trying a slightly altered version of Engram by Sunak. It places less-used characters like &#39;Z&#39; and &#39;Q&#39; on the little finger. You can find Sunak&#39;s review and layout article &lt;a href=&#34;https://sunaku.github.io/moergo-glove80-keyboard.html#lower-layer&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;http://localhost:1313/images/EngramLayout.png&#34;
+  alt=&#34;Credit to Sunak for the image, check his layout guide here and why he made the choices in the design&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2&gt;My Typing Progress&lt;/h2&gt;
+&lt;p&gt;Here&#39;s how my typing speed progressed:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Week 1: 15 WPM&lt;/li&gt;
+  &lt;li&gt;Week 2: 25 WPM&lt;/li&gt;
+  &lt;li&gt;Week 3: 30 WPM&lt;/li&gt;
+  &lt;li&gt;Week 4: 35 WPM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After a few months, I can now touch type at around 65 WPM and have started working on increasing my speed again.&lt;/p&gt;
+&lt;h2&gt;Last Thoughts&lt;/h2&gt;
+&lt;p&gt;I&#39;m thrilled with the change. Since switching, I haven&#39;t experienced any wrist pain or fatigue, and typing has become fun again.&lt;/p&gt;
+&lt;p&gt;One last thing: when I got my split keyboard and changed layouts, I also decided to switch to Vim. Learning a new layout and Vim simultaneously was challenging and slowed me down initially. However, now that I&#39;m past the learning curve, it was a great decision, and I love the shortcuts and skills I&#39;ve gained.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;http://localhost:1313/images/mentionedVimMeme.jpg&#34;
+  alt=&#34;I&amp;amp;rsquo;ll leave you with this&amp;amp;hellip;&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Kyle McAndrew</author>
+      <guid>http://localhost:1313/posts/two-keyboards/</guid>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title>Backend website architecture</title>
-      <link>https://kylemcandrew.dev/posts/website-be-architecture/</link>
+      <link>http://localhost:1313/posts/website-be-architecture/</link>
       <description>&lt;p&gt;I always like to work on projects that achieve multiple goals. Since I want to focus on backend and cloud development for the next few months, I decided to create a real-world application that I&#39;ll actually use. This led me to build a comprehensive plumbing website using the following technologies:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;React with Next.js&lt;/li&gt;
@@ -29,7 +124,7 @@
 &lt;p&gt;I&amp;rsquo;ve created an MVP (Minimum Viable Product) architecture diagram, but I have many more ideas to implement. My focus is on getting the core functionality up and running, then iteratively adding new features in an agile manner.&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://kylemcandrew.dev/images/heating-medics-be-arc.svg&#34;
+  src=&#34;http://localhost:1313/images/heating-medics-be-arc.svg&#34;
   alt=&#34;planned mvp digram&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -54,20 +149,20 @@
 &lt;p&gt;If anybody has implemented anything similar with google calender would be interesting to hear.&lt;/p&gt; 
 </description>
       <author>Kyle McAndrew</author>
-      <guid>https://kylemcandrew.dev/posts/website-be-architecture/</guid>
+      <guid>http://localhost:1313/posts/website-be-architecture/</guid>
       <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Binary Search</title>
-      <link>https://kylemcandrew.dev/posts/binary-search/</link>
+      <link>http://localhost:1313/posts/binary-search/</link>
       <description>&lt;p&gt;I&amp;rsquo;ve been learning algorithms for a while and it&amp;rsquo;s part of my constant learning goal for the year and i have commited to atleast 100 posts on this page so this next one i have done on binary search.&lt;/p&gt;
 &lt;p&gt;Ever searched through a massive phone book for a name starting with &amp;lsquo;K&amp;rsquo;? Yeah probably not if your still in your 20&amp;rsquo;s! Anyway you’ll have to imagine it. Instead of starting at the beginning, you&amp;rsquo;d likely flip to the middle. This is the essence of a binary search.&lt;/p&gt;
 &lt;p&gt;We keep halving the data until we find our target. If we land on &amp;lsquo;L&amp;rsquo;, we know &amp;lsquo;K&amp;rsquo; must be to the left, instantly discarding half the phone book. We halve again, find our section, and bam! – only 25% of the original data remains after just two steps. Compare this to a linear search, where you&amp;rsquo;d check every name, potentially going through the entire phone book.&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;Think of it like a number guessing game with numbers 1 to 10.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://kylemcandrew.dev/images/1to10.png&#34;
+  src=&#34;http://localhost:1313/images/1to10.png&#34;
   alt=&#34;10 sorted ints&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -77,7 +172,7 @@
 &lt;/p&gt;
 &lt;p&gt;To minimize guesses, you start with 5 or 6&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://kylemcandrew.dev/images/1to5.png&#34;
+  src=&#34;http://localhost:1313/images/1to5.png&#34;
   alt=&#34;5 sorted ints&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -87,7 +182,7 @@
 &lt;/p&gt;
 &lt;p&gt;instantly reducing the possibilities by half. Say your next guess is 3, and I say &amp;ldquo;lower.&amp;rdquo; You now only have to worry about 1-3.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://kylemcandrew.dev/images/1to3.png&#34;
+  src=&#34;http://localhost:1313/images/1to3.png&#34;
   alt=&#34;3 sorted ints&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -97,7 +192,7 @@
 &lt;/p&gt;
 &lt;p&gt;One more guess (2), and you nail it.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://kylemcandrew.dev/images/2withCrown.png&#34;
+  src=&#34;http://localhost:1313/images/2withCrown.png&#34;
   alt=&#34;2 is king&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -140,13 +235,13 @@
 &lt;/ul&gt;
 </description>
       <author>Kyle McAndrew</author>
-      <guid>https://kylemcandrew.dev/posts/binary-search/</guid>
+      <guid>http://localhost:1313/posts/binary-search/</guid>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Beginners journey to the cloud</title>
-      <link>https://kylemcandrew.dev/posts/a-beginners-intro-to-the-cloud/</link>
+      <link>http://localhost:1313/posts/a-beginners-intro-to-the-cloud/</link>
       <description>&lt;p&gt;I have wrote this as a beginner in using cloud services, my intention is to improve my writing skills, hold myself accountable and to be able to look back on my growth in the future. Therefore it is far from perfect it&amp;rsquo;s harder to write than i imagined, if anybody has some resources on helping to write be it technical documentation or articles and books on brainstorming and formatting then please do share.&lt;/p&gt;
 &lt;h2 id=&#34;bytes--bits&#34;&gt;Bytes &amp;amp; bits&lt;/h2&gt;
 &lt;h3 id=&#34;whats-a-bit&#34;&gt;What&amp;rsquo;s a Bit?&lt;/h3&gt;
@@ -170,7 +265,7 @@
 &lt;p&gt;Thank You&lt;/p&gt;
 </description>
       <author>Kyle McAndrew</author>
-      <guid>https://kylemcandrew.dev/posts/a-beginners-intro-to-the-cloud/</guid>
+      <guid>http://localhost:1313/posts/a-beginners-intro-to-the-cloud/</guid>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     

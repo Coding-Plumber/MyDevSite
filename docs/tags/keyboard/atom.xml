@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keyboard on Kyle McAndrew</title>
+    <link>http://localhost:1313/tags/keyboard/</link>
+    <description>Recent content in Keyboard on Kyle McAndrew</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/keyboard/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two Keyboards!?</title>
+      <link>http://localhost:1313/posts/two-keyboards/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/two-keyboards/</guid>
+      <description>Exploring Ergonomic Split Keyboards: My Journey with the Glove 80 Over the last few months, I started to look into ergonomic split keyboards and a few keyboards kept coming up:&#xA;Kinesis Advantage 360 Glove 80 ZSA Moonlander Why Though? As a self-employed plumber who also works as a software engineer, I began noticing fatigue in my wrists. After a decade of repetitive movements like using screwdrivers, I started to worry about carpal tunnel syndrome (CTS).</description>
+    </item>
+  </channel>
+</rss>
