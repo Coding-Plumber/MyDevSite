@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DSA on Kyle McAndrew</title>
-    <link>http://localhost:1313/tags/dsa/</link>
+    <link>https://kylemcandrew.dev/tags/dsa/</link>
     <description>Recent content in DSA on Kyle McAndrew</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dsa/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kylemcandrew.dev/tags/dsa/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Binary Search</title>
-      <link>http://localhost:1313/posts/binary-search/</link>
+      <link>https://kylemcandrew.dev/posts/binary-search/</link>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/binary-search/</guid>
+      <guid>https://kylemcandrew.dev/posts/binary-search/</guid>
       <description>I&amp;rsquo;ve been learning algorithms for a while and it&amp;rsquo;s part of my constant learning goal for the year and i have commited to atleast 100 posts on this page so this next one i have done on binary search.&#xA;Ever searched through a massive phone book for a name starting with &amp;lsquo;K&amp;rsquo;? Yeah probably not if your still in your 20&amp;rsquo;s! Anyway you’ll have to imagine it. Instead of starting at the beginning, you&amp;rsquo;d likely flip to the middle.</description>
     </item>
   </channel>
