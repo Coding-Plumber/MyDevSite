@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journey on Kyle McAndrew</title>
+    <link>http://localhost:1313/tags/journey/</link>
+    <description>Recent content in Journey on Kyle McAndrew</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/journey/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I got into the software industry</title>
+      <link>http://localhost:1313/posts/my-journey-into-software/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-journey-into-software/</guid>
+      <description>How I Got into the Software Industry How did I get here? I had two choices at school of what I wanted to do, one being to continue education and go into computer science and the other becoming a plumber. At the time, I felt I didn&amp;rsquo;t enjoy education and learning overall (which would later be because of suspected ADD) and I became a plumber.&#xA;I did an apprenticeship in commercial and industrial Heating &amp;amp; Ventilation then went into doing residential work in plumbing and gas before becoming self-employed.</description>
+    </item>
+  </channel>
+</rss>
