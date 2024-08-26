@@ -49,4 +49,4 @@ I've created an MVP (Minimum Viable Product) architecture diagram, but I have ma
 
 <p>I have many more features in mind, but I prefer to start with an MVP, tackling smaller tasks and gradually adding complexity once the core application is functional.</p>
 
-<p>If anybody has implemented anything similar with google calender would be interesting to hear.</p> 
+<p>If anybody has implemented anything similar with google calender would be interesting to hear.</p>
