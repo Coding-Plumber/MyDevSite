@@ -2,7 +2,7 @@
 
 <img class="avatar" src="images/me.jpg" alt="avatar">
 
-I'm Kyle, I work as a software engineer and occasionally as plumber.
+I'm Kyle, I work as a software engineer and occasionally as a plumber.
 
 I have committed to writing atleast 100 posts to help me write and help solidify my learning. These could be on anything i find interesting or am learning from coding, tech maybe even a little bit of construction or DIY. Let's see where it goes.
 
