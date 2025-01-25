@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Journey on Kyle McAndrew</title><link>https://kylemcandrew.dev/tags/journey/</link><description>Recent content in Journey on Kyle McAndrew</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kylemcandrew.dev/tags/journey/atom.xml" rel="self" type="application/rss+xml"/><item><title>How I got into the software industry</title><link>https://kylemcandrew.dev/posts/my-journey-into-software/</link><pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate><guid>https://kylemcandrew.dev/posts/my-journey-into-software/</guid><description>I began to write this as what i have learnt so far in my transition to the industry but i felt i should write up on how i actually got here and the post became longer than i would have liked so I&amp;rsquo;ve decided to split them up and will do a follow up of my life in the industry so far.
-Crossroads I had two choices at school of what I wanted to do, one being to continue education and go into computer science and the other becoming a plumber.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journey on Kyle McAndrew</title>
+    <link>https://kylemcandrew.dev/tags/journey/</link>
+    <description>Recent content in Journey on Kyle McAndrew</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kylemcandrew.dev/tags/journey/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I got into the software industry</title>
+      <link>https://kylemcandrew.dev/posts/my-journey-into-software/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://kylemcandrew.dev/posts/my-journey-into-software/</guid>
+      <description>I began to write this as what i have learnt so far in my transition to the industry but i felt i should write up on how i actually got here and the post became longer than i would have liked so I&amp;rsquo;ve decided to split them up and will do a follow up of my life in the industry so far.&#xA;Crossroads I had two choices at school of what I wanted to do, one being to continue education and go into computer science and the other becoming a plumber.</description>
+    </item>
+  </channel>
+</rss>

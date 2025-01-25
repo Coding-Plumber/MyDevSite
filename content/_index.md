@@ -2,9 +2,14 @@
 
 <img class="avatar" src="images/me.jpg" alt="avatar">
 
-I'm Kyle, I work as a software engineer and occasionally as a plumber.
+I'm a software engineer focusing on:
 
-I have committed to writing atleast 100 posts to help me write and help solidify my learning. These could be on anything i find interesting or am learning from coding, tech maybe even a little bit of construction or DIY. Let's see where it goes.
+- Backend development with Go and Python
+- DevOps practices and automation
+- Cloud architecture and solutions
+- Software engineering best practices
+
+This blog serves as my digital notebook - a collection of posts about technologies, solutions, and insights I've found interesting or helpful along my software engineering journey. Whether it's diving into Golang implementations, exploring cloud architectures, or sharing DevOps tips, I write about what excites me in the tech world or my career.
 
 <a href="https://github.com/Coding-Plumber" target="_blank" rel="noopener noreferrer">
     <img class="icons" src="images/github-mark.png" alt="GitHub" style="height: 30px; width: 30px; margin-bottom: 20px;">

@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Architecture on Kyle McAndrew</title><link>https://kylemcandrew.dev/tags/architecture/</link><description>Recent content in Architecture on Kyle McAndrew</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kylemcandrew.dev/tags/architecture/atom.xml" rel="self" type="application/rss+xml"/><item><title>Backend website architecture</title><link>https://kylemcandrew.dev/posts/website-be-architecture/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://kylemcandrew.dev/posts/website-be-architecture/</guid><description>I always like to work on projects that achieve multiple goals. Since I want to focus on backend and cloud development for the next few months, I decided to create a real-world application that I'll actually use. This led me to build a comprehensive plumbing website using the following technologies:
-React with Next.js TypeScript Tailwind CSS AWS (Amazon Web Services) Go (Golang) Having already created a straightforward plumbing website, I wanted version 2 to focus on automating as much of the process as possible, from booking to job completion.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on Kyle McAndrew</title>
+    <link>https://kylemcandrew.dev/tags/architecture/</link>
+    <description>Recent content in Architecture on Kyle McAndrew</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kylemcandrew.dev/tags/architecture/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backend website architecture</title>
+      <link>https://kylemcandrew.dev/posts/website-be-architecture/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://kylemcandrew.dev/posts/website-be-architecture/</guid>
+      <description>I always like to work on projects that achieve multiple goals. Since I want to focus on backend and cloud development for the next few months, I decided to create a real-world application that I&#39;ll actually use. This led me to build a comprehensive plumbing website using the following technologies:&#xA;React with Next.js TypeScript Tailwind CSS AWS (Amazon Web Services) Go (Golang) Having already created a straightforward plumbing website, I wanted version 2 to focus on automating as much of the process as possible, from booking to job completion.</description>
+    </item>
+  </channel>
+</rss>
