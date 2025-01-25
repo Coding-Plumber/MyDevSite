@@ -9,7 +9,7 @@ I'm a software engineer focusing on:
 - Cloud architecture and solutions
 - Software engineering best practices
 
-This blog serves as my digital notebook - a collection of posts about technologies, solutions, and insights I've found interesting or helpful along my software engineering journey. Whether it's diving into Golang implementations, exploring cloud architectures, or sharing DevOps tips, I write about what excites me in the tech world or my career.
+This blog serves as my digital notebook - a collection of posts about technologies, solutions, and insights I've found interesting or helpful along my software engineering journey.
 
 <a href="https://github.com/Coding-Plumber" target="_blank" rel="noopener noreferrer">
     <img class="icons" src="images/github-mark.png" alt="GitHub" style="height: 30px; width: 30px; margin-bottom: 20px;">
